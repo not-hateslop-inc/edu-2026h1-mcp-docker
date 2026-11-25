@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "hs-notices": {"command": "python", "args": ["/절대/경로/mcp_server/server.py"]}
+  }
+}

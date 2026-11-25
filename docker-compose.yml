@@ -1,0 +1,7 @@
+services:
+  hs-notices:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./mcp_server/notices:/app/mcp_server/notices:ro
